@@ -26,7 +26,7 @@ public class frontend2 {
                 if ("exit".equalsIgnoreCase(textmsg)) {
                     System.out.println("Exiting chat...");
                     break;
-                }a
+                }
 
                 // Send message to server
                 out.println(name + ": " + textmsg);
