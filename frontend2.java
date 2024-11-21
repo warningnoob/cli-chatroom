@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class frontend2 {
     public static void main(String[] args) throws IOException {
         // Server setup
-        Socket socket = new Socket("localhost", 9090);
+        Socket socket = new Socket("10.93.41.226", 9090);
         PrintWriter out = new PrintWriter(socket.getOutputStream(), true);
         BufferedReader in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
 
